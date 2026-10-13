@@ -1,0 +1,5 @@
+/build/
+*.o
+/06work_stealing_pool/work_stealing_pool
+/08linux_tcp_server_cpp/tcp_server
+/09multithreaded_http_server_cpp17/http_server
