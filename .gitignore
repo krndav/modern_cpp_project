@@ -1,5 +1,11 @@
 /build/
 *.o
+/01memory_pool/mem_Pool
+/02thread_pool/thread_Pool
+/03thread_safe_blocking_queue/thread_safe_queue
+/04thread_safe_memory_pool/templatized_thread_safe_memory_pool
+/04thread_safe_memory_pool/thread_safe_memory_pool
+/05task_schedular/task_scheduler
 /06work_stealing_pool/work_stealing_pool
 /08linux_tcp_server_cpp/tcp_server
 /09multithreaded_http_server_cpp17/http_server

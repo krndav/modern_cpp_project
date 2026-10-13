@@ -1,4 +1,4 @@
-CXX = g++-15
+CXX ?= g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -pthread
 
 TARGET = work_stealing_pool

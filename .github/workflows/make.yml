@@ -12,5 +12,8 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
+      - name: Clean generated files
+        run: make clean
+
       - name: Build all projects
         run: make -j2
