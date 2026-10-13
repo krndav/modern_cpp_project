@@ -1,5 +1,5 @@
 
-CXX = g++-15
+CXX ?= g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -pthread
 TARGET = task_scheduler
 
@@ -22,4 +22,3 @@ run: $(TARGET)
 
 clean:
 	rm -f $(OBJS) $(TARGET)
-
